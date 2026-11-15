@@ -238,7 +238,7 @@ local Themes = {
 }
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Near Hub"
+ScreenGui.Name = "HydroGii"
 ScreenGui.Parent = (not RunService:IsStudio() and CoreGui) or LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1044,7 +1044,7 @@ end
 
 function Library:Window(options)
     options = options or {}
-    local winTitle = options.Title or "Near Hub"
+    local winTitle = options.Title or "EgiHub"
     local winDesc = options.Desc or "Owner: HydroGii"
     local winIcon = options.Icon or "door-open"
     local currentThemeName = Themes[options.Theme] and options.Theme or "Dark"
