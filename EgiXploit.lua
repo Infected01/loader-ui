@@ -1665,7 +1665,7 @@ function Library:Window(options)
             ownerLbl.Size = UDim2.new(1, 0, 0, 14)
             ownerLbl.Font = Enum.Font.GothamBold
             ownerLbl.RichText = true
-            ownerLbl.Text = "Near Hub Owner: " .. tostring(ownerName)
+            ownerLbl.Text = "HydroGii Owner: " .. tostring(ownerName)
             ownerLbl.TextColor3 = activeTheme.Main
             ownerLbl.TextSize = 11
             ownerLbl.TextXAlignment = Enum.TextXAlignment.Left
